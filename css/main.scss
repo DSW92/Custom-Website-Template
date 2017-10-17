@@ -1,0 +1,74 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    background-color: #242425;
+}
+
+#main_navbar {
+    background-color: rgba(36, 36, 37, 0.7);
+    border-bottom: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: lightgrey;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: lightgray;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-brand {
+    margin-left: 10px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logo {
+    margin-right: 10px;
+}
+
+@media screen and (min-device-width: 768px) {
+    #main_navbar {
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    .navbar-brand {
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+}
+
+header.masthead {
+    background-image: url("../images/title.jpg");
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
